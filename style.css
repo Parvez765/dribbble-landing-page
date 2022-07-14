@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    margin-top: -40px;
+    padding: 40px;
+}
+
+.navigation{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.logo{
+    width: 4%;
+    height: 4%;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-top: -25px;
+}
+.search{
+    width: 1%;
+    height: 1%;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.share{
+    background-color: #f729d8;
+    padding: 20px 30px;
+    margin-top: -23px;
+    border-radius: 10px;
+    color: white;
+}
+
+.section-container{
+    background-color: #ffeffa;
+    margin-top: -170px;
+}
+
+.introduction{
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 12%;
+}
+
+.section{
+    display: flex;
+    
+}
+
+.section-1{
+    width: 50%;
+    padding: 150px 0 0 100px;
+}
+
+.section-1 h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.section-1 p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.section-img{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #f729d8;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.option{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+    
+}
+
+.drop-down{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: -20px;
+}
+
+.drop-down:focus {
+   border-color: #f729d8;
+}
+
+.list{
+    margin-top: 3px;
+}
+
+.filterbtn{
+    margin-top: 3px;
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid gray;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#discover{
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.image-section{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 12%;
+    margin-right: 10%;
+    
+}
+
+.image-card{
+    display: flex;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill minmax(90px 1fr));
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    
+}
+
+.card-heading{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.images{
+   border-radius: 10px;
+   width: 100%;
+
+}
+
+.share-btn{
+    text-decoration: none;
+    margin-left: 45%;
+    margin-top: 100px;
+    background-color: #f729d8;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.sign-btn{
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.intro-footer{
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-bottom: 150px;
+    display: flex;
+    
+   
+}
+
+.footer-container{
+   background-color: rgb(235, 235, 235);
+   padding: 20px;
+}
+
+.footer-icon{
+    width: 25px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+#fb-icon{
+    width: 50px;
+    margin-left: -8px;
+    margin-right: 4px;
+}
+
+.para{
+    margin-top: 30px;
+}
+
+.footer-logo{
+    width: 150px;
+    display: inline-block;
+}
+
+.footer-paragraph{
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+    padding: 30px;
+    
+}
+
+.footer-paragraph .footer-nav{
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.footer-intro{
+    margin-left: 100px;
+}
+.footer-intro a{
+   display: block;
+   text-decoration: none;
+   margin-top: 30px;
+   color: gray;
+}
+
+.line{
+    margin-bottom: 30px;
+}
+
+.copy{
+    width: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.copy-write{
+    text-align: center;
+    margin-bottom: 50px;
+}
